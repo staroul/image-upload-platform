@@ -1,0 +1,35 @@
+{
+  "name": "image_handler",
+  "version": "1.0.0",
+  "description": "a simple image_handler",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "babel-node index.js",
+    "start": "nodemon --exec npm run dev"
+  },
+  "keywords": [
+    "image"
+  ],
+  "author": "merlynli",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "fs.promised": "^3.0.0",
+    "image-size": "^0.6.3",
+    "koa": "^2.5.1",
+    "koa-body": "^4.0.4",
+    "koa-bodyparser": "^4.2.1",
+    "koa-json": "^2.0.2",
+    "koa-multer": "^1.0.2",
+    "koa-route": "^3.2.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "koa2-cors": "^2.0.5"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-runtime": "^6.23.0"
+  }
+}

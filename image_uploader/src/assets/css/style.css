@@ -1,0 +1,143 @@
+.uploader{
+    border: 1px solid #d7dde4;
+    background: #f5f7f9;
+    position: relative;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.header-center{
+    align-self: center;
+}
+.header-center > .icon{
+    float: left;
+}
+.header-center > h1{
+    float: left;
+    position: relative;
+    left: 10px;
+    font-weight: normal;
+    font-size: 28px;
+}
+.container{
+    position:relative;
+    max-width: 1300px;
+    min-width: 1300px;
+    min-height: 670px;
+    margin: 5px auto 0 auto;
+}
+.upload-frame{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: auto;
+}
+.upload-button{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    line-height: 100px;
+    min-height: 596px;
+    max-height: 596px;
+}
+.upload-info{
+    align-self: center;
+}
+.upload-icon{
+    transition: transform .2s ease;
+}
+.upload-info p{
+    font-size: 14px;
+    line-height: 25px;
+    margin: 0 20px;
+    transition: transform .2s ease;
+}
+.upload-info em{
+    font-style: normal;
+    font-weight: bold;
+}
+.upload-hint{
+    margin: 10px 0 0 5px; 
+}
+.upload-frame:hover .upload-icon{
+    transform: scale(1.2);
+}
+.upload-frame:hover .upload-info p{
+    transform: scale(1.1);
+}
+.upload-modal{
+    text-align: center;
+}
+.upload-modal img{
+    display: inline-block;
+    height: 100%;
+    max-width: 100%;
+}
+.ivu-modal-body:hover img{
+    background:  #a4deff;
+}
+.content{
+    margin: 0 0 0 0;
+    padding: 0 16px 20px 16px;
+}
+.card{
+    min-height: 670px;
+}
+.footer-center{
+    text-align: center;
+}
+.upload-list{
+    display: inline-block;
+    width: 192px;
+    height: 135px;
+    text-align: center;
+    line-height: 120px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    overflow: hidden;
+    background: #fff;
+    position: relative;
+    box-shadow: 0 1px 1px rgba(0,0,0,.2);
+    margin: 8px 11px 5px 8px;
+}
+.upload-image{
+    height: 100%;
+    width: 100%;
+}
+.upload-image img{
+    max-width: 100%;
+    max-height: 79%;
+}
+.upload-url{
+    margin-top: -150px;
+}
+.upload-progress{
+    margin-top:20px;
+    padding: 0 5px;
+}
+.upload-list-cover{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,.6);
+    opacity: 0;
+    transition: opacity .3s ease;
+}
+.upload-list-cover-button{
+    align-self: center;
+    margin: 10px auto 0;
+}
+.upload-list:hover .upload-list-cover{
+    opacity: 1;
+}
+.upload-list:hover img{
+    filter:drop-shadow( 0 0 15px #495060);
+}
+.upload-list-cover i{
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0 8px;
+}
